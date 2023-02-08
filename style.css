@@ -1,0 +1,142 @@
+@import url('https:fonts.googleapis.com/css2?family=Poppins:wght@400;600;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+body{
+    /*overflow: hidden; */
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #f3f5f8;
+}
+nav{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    height: 80px;
+    line-height: 80px;
+    z-index: 111;
+}
+.Logo{
+    display: flex;
+    font-size: 40px;
+    font-weight: 800;
+    color: #3d535f;
+    letter-spacing: 3px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+b{
+    font-size: 50px;
+    color: blueviolet;
+}
+.navItems{
+    display: flex;
+}
+.navItems li{
+    list-style: none;
+    margin: 0 15px;
+}
+.navItems li a{
+    font-size: 25px;
+    color: #3d535f;
+    letter-spacing: 3px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.navItems li:hover a,
+.links a:hover{
+    color: blueviolet;
+}
+.links a{
+    font-size: 30px;
+    color: #3d535f;
+    margin: 25px 10px;
+}
+.wrapper{
+    width: 100%;
+    height: calc(100vh - 80px);
+    justify-content: center;
+    align-items: center;
+    padding: 0 15%;
+    top: 20%;
+    right: 5%;
+    overflow: hidden;
+    position: fixed;
+    }
+    .topline{
+        display: block;
+        position: relative;
+        font-size: large;
+        letter-spacing: 5px;
+        color: #3d535f;
+    }
+    .topline::after{
+        position: absolute;
+        content: '';
+        height: 4px;
+        width: 45px;
+        bottom: 10px;
+        background-color:blueviolet;
+    }
+    h1{
+        display: block;
+        font-size: 5em;
+        font-weight: 900;
+        color: #3d535f;
+    }
+    .multiText{
+        color: #7f00ff;
+        text-transform: capitalize;  
+    }
+    p{
+        display: block;
+        width: 90%;
+        font-size: 1.2em;
+        color: #3d535f;
+    }
+    .btns{
+        
+        width: 100%;
+        position: relative;
+        justify-content: space-between;
+    }
+    button{
+        outline: none;
+        border: none;
+        cursor: pointer;
+        font-size: 25px;
+        font-weight: 400;
+        color: #fff;
+        background-color: #3d535f;
+        padding: 5px 3px;
+        margin: 2px 1px;
+        letter-spacing: 2px;
+        text-transform: capitalize;
+        box-shadow: 0 10px 5px rgba(0, 0, 0, 0.4);
+        transition: all 0.3s ease;
+      }
+      
+      button:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+      }
+      .imgbox{
+        position: absolute;
+        height: 200%;
+        width: 350%;
+        top: 100px;
+        right: -30px;
+        transform: rotateY(180deg);
+        animation: animateUser 4s linear infinite;
+        z-index: -1;
+      }     
+      @keyframes animateUser{
+        50%{
+            right: 30px;
+        }
+      }
