@@ -129,7 +129,7 @@ b{
         position: absolute;
         height: 200%;
         width: 350%;
-        top: 100px;
+        top: 400px;
         right: -30px;
         transform: rotateY(180deg);
         animation: animateUser 4s linear infinite;
