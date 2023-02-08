@@ -129,10 +129,10 @@ b{
         position: absolute;
         height: 100%;
         width: 100%;
-        top: 20px;
+        top: 100px;
         right: -15px;
         transform: rotateY(180deg);
-        animation: animateUser 4s linear infinite;
+        animation: animateUser 3s linear infinite;
         z-index: -1;
       }     
       @keyframes animateUser{
