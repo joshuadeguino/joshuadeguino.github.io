@@ -127,9 +127,9 @@ b{
       }
       .imgbox{
         position: absolute;
-        height: 100%;
-        width: 100%;
-        top: 100px;
+        height: 500%;
+        width: 400%;
+        top: 50px;
         right: -15px;
         transform: rotateY(180deg);
         animation: animateUser 3s linear infinite;
