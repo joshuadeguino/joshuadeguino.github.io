@@ -286,9 +286,6 @@ b{
   .inputBox input[type="submit"]:hover {
     background-color: #555;
   }
-  .gmail-icon {
-  background: url(path/to/gmail-icon.png) no-repeat;
-  width: 16px;
-  height: 16px;
-  display: inline-block;
-}
+  .content p{
+    margin-left: 5%;
+  }
