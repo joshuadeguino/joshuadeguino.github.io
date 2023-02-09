@@ -160,7 +160,8 @@ b{
     display: flex;
     align-items: center;
     margin-top: 100px;
-    margin-left: 20%;
+    margin-left: 10%;
+
 }
 
 .About-me img {
@@ -168,13 +169,13 @@ b{
     height: 200px;
     border-radius: 50%;
     margin-right: 30px;
-    margin-top: 20%;
+    margin-top: 10%;
     border: 2px solid blueviolet;
 }
 
 .wrds {
     text-align: center;
-    margin-top: 10%;
+    margin-top: 5%;
 }
 
 .wrds h1 {
