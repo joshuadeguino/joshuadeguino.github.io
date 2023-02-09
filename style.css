@@ -159,7 +159,8 @@ b{
 .About-me {
     display: flex;
     align-items: center;
-    margin-top: 50px;
+    margin-top: 100px;
+    margin-left: 25%;
 }
 
 .About-me img {
