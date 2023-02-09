@@ -198,3 +198,97 @@ b{
     margin-bottom: 10px;
     font-size: 18px;
 }
+.contact {
+    background-color: #f2f2f2;
+    padding: 60px 0;
+  }
+  
+  .content {
+    text-align: center;
+    padding-bottom: 60px;
+  }
+  
+  .content h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .contactInfo {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .box {
+    text-align: center;
+    width: 30%;
+  }
+  
+  .icon {
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+  
+  .contactForm {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #ccc;
+  }
+  
+  .contactForm h2 {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .inputBox {
+    position: relative;
+    margin-bottom: 30px;
+  }
+  
+  .inputBox input, .inputBox textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    border: none;
+    border-bottom: 1px solid #ddd;
+    outline: none;
+  }
+  
+  .inputBox span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px;
+    font-size: 18px;
+    color: #ddd;
+    pointer-events: none;
+    transition: .5s;
+  }
+  
+  .inputBox input:focus ~ span,
+  .inputBox textarea:focus ~ span {
+    top: -30px;
+    left: 0;
+    color: #aaa;
+    font-size: 14px;
+  }
+  
+  .inputBox input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    float: right;
+  }
+  
+  .inputBox input[type="submit"]:hover {
+    background-color: #555;
+  }
+  .gmail-icon {
+  background: url(path/to/gmail-icon.png) no-repeat;
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+}
