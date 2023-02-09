@@ -222,6 +222,9 @@ b{
     text-align: center;
     width: 30%;
   }
+  .box p{
+    margin-left: 5%;
+  }
   
   .icon {
     font-size: 40px;
