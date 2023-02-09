@@ -31,10 +31,6 @@ nav{
     cursor: pointer;
     text-transform: uppercase;
 }
-b{
-    font-size: 50px;
-    color: #b0e0e6;
-}
 .navItems{
     display: flex;
 }
