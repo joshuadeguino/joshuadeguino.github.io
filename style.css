@@ -186,8 +186,10 @@ nav{
     margin-bottom: 40px;
     font-weight: normal;
 }
-.wrds p{
-    margin-left: 5%;
+.wrds p {
+  text-align: justify;
+  margin-left: 5%;
+  line-height: 1.5;
 }
 
 .line {
