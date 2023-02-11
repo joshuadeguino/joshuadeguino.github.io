@@ -384,20 +384,3 @@ nav{
     background-color: #b0e0e6;
     border: 2px solid white;
   }
-  @media only screen and (max-width: 768px) {
-    .navItems {
-      display: none;
-    }
-    .Logo {
-      display: block;
-      margin: 0 auto;
-    }
-    .links {
-      display: flex;
-      justify-content: center;
-      width: 100%;
-      position: absolute;
-      top: 80px;
-    }
-  }
-  
