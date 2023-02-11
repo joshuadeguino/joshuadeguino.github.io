@@ -384,3 +384,16 @@ nav{
     background-color: #b0e0e6;
     border: 2px solid white;
   }
+  main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+img {
+  max-width: 80%;
+  height: auto;
+  margin-top: 50%;
+  transform: scale(2.1);
+}
