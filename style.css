@@ -97,31 +97,35 @@ nav{
         color: #3d535f;
     }
     .btns{
-        
-        width: 100%;
-        position: relative;
-        justify-content: space-between;
-    }
-    button{
-        outline: none;
-        border: none;
-        cursor: pointer;
-        font-size: 25px;
-        font-weight: 400;
-        color: #fff;
-        background-color: #3d535f;
-        padding: 5px 3px;
-        margin: 2px 1px;
-        letter-spacing: 2px;
-        text-transform: capitalize;
-        box-shadow: 0 10px 5px rgba(0, 0, 0, 0.4);
-        transition: all 0.3s ease;
-      }
-      
-      button:hover {
-        transform: translateY(-3px);
-        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
-      }
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      position: relative;
+      margin: 10px 0;
+      left: -43%;
+  }
+  
+  button{
+      outline: none;
+      border: none;
+      cursor: pointer;
+      font-size: 20px;
+      font-weight: 400;
+      color: #fff;
+      background-color: #3d535f;
+      padding: 10px 20px;
+      margin: 0 10px;
+      letter-spacing: 2px;
+      text-transform: capitalize;
+      box-shadow: 0 10px 5px rgba(0, 0, 0, 0.4);
+      transition: all 0.3s ease;
+  }
+  
+  button:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+  }
+  
       .imgbox{
         position: absolute;
         height: 500%;
