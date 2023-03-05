@@ -128,8 +128,8 @@ nav{
   
       .imgbox{
         position: absolute;
-        height: 500%;
-        width: 400%;
+        height: 500px;
+        width: 200px;
         top: -110px;
         right: -15px;
         transform: rotateY(180deg);
