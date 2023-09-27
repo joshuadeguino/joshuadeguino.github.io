@@ -1,55 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
-        <link rel="stylesheet" href="style.css">
-        <link rel="icon" type="image/png" href="image/web icon.png">
-        <title>Joshua Deguiño</title>
-    </head>
-<body> 
-    <div class="container">
-        <nav>
-            <div class="Logo">Portfolio</div>
-            <ul class="navItems">
-                <li><a href="index.html">HOME</a></li>
-                <li><a href="about.html">ABOUT</a></li>
-                <li><a href="education.html">EDUCATION</a></li>
-                <li><a href="contact.html">CONTACT</a></li>
-            </ul>
-            <div class="links">
-                <a href="https://twitter.com/JoshuaDeguino"><i class="fab fa-twitter"></i></a>
-                <a href="https://www.instagram.com/joshwoo_05/"><i class="fab fa-instagram"></i></a>
-                <a href="https://www.facebook.com/joshua.deguino"><i class="fab fa-facebook"></i></a>
-            </div>
-        </nav>
-
-        <div class="wrapper">
-            <div class="cols cols0"></div>
-            <span class="topline">HELLO</span>
-            <h1>I'm a <span class="multiText"></span></h1>
-            <p>I'm Joshua A. Deguiño and I am currently enrolled at the University of Science and Technology of Southern Philippines.</p>
-            <div class="btns">
-                <a href="image/CVV.png" target="_blank">
-                    <button class="btn">View CV</button>
-                </a>
-            </div>
-            <div class="cols cols1">
-                <div class="imgbox">
-                    <img src="image/IMG_20220425_172423-removebg-preview.png" >
-                </div>
-            </div>
-        </div>
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <nav>
+    <div class="logo">
+      <p>JD</p>
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>"</script>
-    <script>
-        var typingEffect = new Typed(".multiText",{
-            strings : ["Student", "Athlete","Son of G"],
-            loop : true,
-            typeSpeed : 100,
-            backSpeed: 80,
-            backDelay : 1500
-        })
-    </script>
+    <button class="menu-toggle">&#9776;</button>
+    <ul>
+      <li><a href="index.html" class="active">Home</a></li>
+      <li><a href="New portfolio/index.html" target="_blank">Portfolio</a></li>
+      <li>
+        <a class="active">Activities</a>
+        <ul>
+          <li><a href="Activity 1/index.html" target="_blank">Activity 1</a></li>
+          <li><a href="index.html" target="_blank">Activity 2</a></li>
+          <li><a href="regform.html" target="_blank">Activity 3</a></li>
+          <li>
+            <a>Activity 4</a>
+            <ul>
+              <li><a href="inter/interactiveform.html" target="_blank">Interactive</a></li>
+              <li><a href="modal/index.html" target="_blank">Modal</a></li>
+            </ul>
+          </li>
+          <li><a href="regform.html" target="_blank">Activity 3</a></li>
+        </ul>
+      </li>
+      <li><a href="regform.html">Registration</a></li>
+    </ul>
+  </nav>
+
+  <script>
+    const toggleButton = document.querySelector('.menu-toggle');
+    const menuList = document.querySelector('nav ul');
+
+    // Add a click event listener to the toggle button
+    toggleButton.addEventListener('click', () => {
+    menuList.classList.toggle('active');
+    });
+    
+  </script>
 </body>
 </html>

@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registration</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <div class="logo">
+          <p>JD</p>
+        </div>
+        <button class="menu-toggle">&#9776;</button>
+        <ul>
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="New portfolio/index.html" target="_blank">Portfolio</a></li>
+          <li>
+            <a class="active">Activities</a>
+            <ul>
+              <li><a href="Activity 1/index.html" target="_blank">Activity 1</a></li>
+              <li><a href="index.html" target="_blank">Activity 2</a></li>
+              <li><a href="regform.html" target="_blank">Activity 3</a></li>
+              <li>
+                <a>Activity 4</a>
+                <ul>
+                  <li><a href="inter/interactiveform.html" target="_blank">Interactive</a></li>
+                  <li><a href="modal/index.html" target="_blank">Modal</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li><a href="regform.html">Registration</a></li>
+        </ul>
+      </nav>  
+      <script>
+        const menuToggle = document.querySelector('.menu-toggle');
+        const menuList = document.querySelector('nav ul');
+    
+        menuToggle.addEventListener('click', () => {
+          menuList.classList.toggle('active');
+        });
+      </script>
+    
+    <section class="registration">
+        <div class="container">
+            <header>REGISTRATION</header>
+    
+            <form action="#">
+                <div class="form first">
+                    <div class="details personal">
+                        <span class="title">PERSONAL DETAILS</span>
+    
+                        <div class="fields">
+                            <div class="input-fields">
+                                <label>Full Name</label>
+                                <input type="text" placeholder="Enter your name" required>
+                            </div>
+
+                            <div class="input-fields">
+                                <label>Date of Birth</label>
+                                <input type="date" placeholder="Enter birth date" required>
+                            </div>
+
+                            <div class="input-fields">
+                                <label>Email</label>
+                                <input type="text" placeholder="Enter your email" required>
+                            </div>
+
+                            <div class="input-fields">
+                                <label>Mobile Number</label>
+                                <input placeholder="Enter mobile number" required>
+                            </div>
+
+                            <div class="input-fields">
+                                <label>Gender</label>
+                                <select>
+                                    <option value="Gender">Gender</option>
+                                    <option value="Male">Male</option>
+                                    <option value="Female">Female</option>
+                                </select>
+                            </div>
+
+                            <div class="input-fields">
+                                <label>Address</label>
+                                <input type="text" placeholder="Enter your Address" required>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="details ID">
+                        <span class="title">SCHOOL DETAILS</span>
+    
+                        <div class="fields">
+                            <div class="input-fields">
+                                <label>ID Type</label>
+                                <input type="text" placeholder="Enter ID type" required>
+                            </div>
+
+                            <div class="input-fields">
+                                <label>ID Number</label>
+                                <input placeholder="Enter ID number" required>
+                            </div>
+
+                            <div class="input-fields" required>
+                                <label>Section</label>
+                                <Select>
+                                    <option value="Section">Section</option>
+                                    <option value="2R1">2R1</option>
+                                    <option value="2R2">2R2</option>
+                                    <option value="2R3">2R3</option>
+                                    <option value="2R4">2R4</option>
+                                    <option value="2R5">2R5</option>
+                                    <option value="2R6">2R6</option>
+                                    <option value="2R7">2R7</option>
+                                    <option value="2R8">2R8</option>
+                                    <option value="2R9">2R9</option>
+                                    <option value="2R10">2R10</option>
+                                    <option value="2R11">2R11</option>
+                                </Select>
+                            </div>
+
+                            <div class="input-fields">
+                                <label>Year</label>
+                                <select>
+                                    <option value="Year">Year</option>
+                                    <option value="1st Year">1st Year</option>
+                                    <option value="2nd Year">2nd Year</option>
+                                    <option value="3rd Year">3rd Year</option>
+                                    <option value="4th Year">4th Year</option>
+                                </select>
+                            </div>
+
+                            <div class="input-fields">
+                                <label>Course</label>
+                                <select>
+                                    <option value="Course">Course</option>
+                                    <option value="BSIT">Bachelor of Science in Information Technology (BSIT)</option>
+                                </select>
+                            </div>
+
+                            <div class="input-fields">
+                                <label>Campus</label>
+                                <select>
+                                    <option value="Campus">Campus</option>
+                                    <option value="CDO">Cagayan de Oro, Misamis Oriental</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <button class="submitBtn">
+                            <span class="btnText">Submit</span>
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+</body>
+</html>
